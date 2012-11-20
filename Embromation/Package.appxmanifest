@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="51551RobertoBorges.Embromation" Publisher="CN=347A8ED9-7BB3-4158-B6CE-0ABC9AE0778A" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Embromation</DisplayName>
+    <PublisherDisplayName>RobertoBorges</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Embromation.App">
+      <VisualElements DisplayName="Embromation" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Excelente aplicativo para gerar textos vazios e sem sentido usando palavras inteligentes confunde qualquer pessoa, até mesmo pessoas desavisadas irão acreditar em discursos gerados por essa ferramenta." ForegroundText="light" BackgroundColor="#00b2f0">
+        <DefaultTile ShowName="allLogos" WideLogo="Assets\WideLogo.png" ShortName="Embromation" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#00b2f0" />
+        <InitialRotationPreference>
+          <Rotation Preference="portrait" />
+          <Rotation Preference="landscape" />
+          <Rotation Preference="portraitFlipped" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
